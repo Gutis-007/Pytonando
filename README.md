@@ -7,4 +7,4 @@ Projeto feito na semana Pythonando com Django
 ## Passo 3
 - Para iniciar o projeto primeiro execute "python manage.py runserver"
 ## Passo 4 
-- No navegador entre em http://127.0.0.1:8000/usuarios/logar
+- No navegador entre em http://127.0.0.1:8000/usuarios/cadastro
