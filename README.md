@@ -18,7 +18,7 @@ Projeto feito na semana Pythonando com Django
 
 ## Passo 3
 
-- Caso for usar o banco de dados Sqlite3, vá para a pasta `Study_async`, abra o arquivo `settings.py` e descomente a seguinte seção:
+- Caso for usar o banco de dados Sqlite3, vá para a pasta `study_async`, abra o arquivo `settings.py` e descomente a seguinte seção:
   ```python
   'default': {
       'ENGINE': 'django.db.backends.sqlite3',
