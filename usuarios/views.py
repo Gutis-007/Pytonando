@@ -55,3 +55,5 @@ def logout(request):
    auth.logout(request)
    return redirect('/usuarios/logar')
 
+def index(request):
+   return redirect('/usuarios/logar')
