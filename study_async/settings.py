@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-(ldh9tjdxo=8(z$p$%ipflz971i*1fxze6b8_ug)c46hkd!u7u'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -77,14 +77,15 @@ WSGI_APPLICATION = 'study_async.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.parse(
-        'postgres://pytonando_user:CnPf9e72Oiyqv93nyqD4N85Jj9YJqCPS@dpg-cp2m4763e1ms73f1u87g-a.oregon-postgres.render.com/pytonando',
-    )
-
- #'default': {
-    #    'ENGINE': 'django.db.backends.sqlite3',
-    #    'NAME': BASE_DIR / 'db.sqlite3',
-    #}
+    
+    #'default': dj_database_url.parse(
+    #    'postgres://pytonando_user:CnPf9e72Oiyqv93nyqD4N85Jj9YJqCPS@dpg-cp2m4763e1ms73f1u87g-a.oregon-postgres.render.com/pytonando',
+    #)
+    
+ 'default': {
+       'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
 }
 
 # Password validation
