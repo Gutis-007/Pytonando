@@ -78,14 +78,14 @@ WSGI_APPLICATION = 'study_async.wsgi.application'
 
 DATABASES = {
     
-    #'default': dj_database_url.parse(
-    #    'postgres://pytonando_user:CnPf9e72Oiyqv93nyqD4N85Jj9YJqCPS@dpg-cp2m4763e1ms73f1u87g-a.oregon-postgres.render.com/pytonando',
-    #)
+    'default': dj_database_url.parse(
+        'postgres://pytonando_user:CnPf9e72Oiyqv93nyqD4N85Jj9YJqCPS@dpg-cp2m4763e1ms73f1u87g-a.oregon-postgres.render.com/pytonando',
+    )
     
- 'default': {
-       'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+ #'default': {
+  #     'ENGINE': 'django.db.backends.sqlite3',
+  #      'NAME': BASE_DIR / 'db.sqlite3',
+  #  }
 }
 
 # Password validation
