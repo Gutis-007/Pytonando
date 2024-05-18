@@ -1,6 +1,7 @@
 # Pytonando
 
-Projeto feito na semana Pythonando com Django
+Projeto feito na Psw9.0 com Django
+Um projeto de um sistema de estudos onde se pode criar flashcards e desafios onde se é possivel visualizar um relatorio de seu desempenho apos o desafio ser finalizado assim para ajudar a identificar aonde se pode melhorar nos estudos
 
 ## Passo 1 
 
